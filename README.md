@@ -13,5 +13,16 @@
 - OpenCV (이미지 처리)
 - Visual Studio 2022
 
-## 구조
+## 🖼️ 화면 구성 (UI Layout)
+
+```plaintext
+MainWindow
+└── stackedWidget
+    ├── viewerPage
+    │   ├── btnLoad / btnSave / btnEdit
+    │   ├── imgLabel (이미지 표시)
+    │   └── textEdit (로그)
+    └── editorPage
+        ├── btnGrayscale / btnBack / btnOriginal
+        └── imgEditLabel (편집 중 이미지 표시)
 
