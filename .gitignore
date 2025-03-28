@@ -1,0 +1,40 @@
+# Visual Studio
+*.user
+*.suo
+*.VC.db
+*.sdf
+*.ipch
+*.opensdf
+*.cache
+*.log
+
+# Qt & build files
+*.pro.user
+*.qrc.depends
+*.autosave
+*.obj
+*.o
+*.exe
+*.dll
+*.pdb
+*.idb
+*.ncb
+*.aps
+*.pch
+*.vcxproj.user
+*.vcxproj.filters
+Makefile*
+
+# build directories
+build*/
+debug/
+release/
+x64/
+x86/
+
+# Qt generated
+moc_*
+ui_*.h
+*.moc
+*.qmlc
+*.qmlcache
